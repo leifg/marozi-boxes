@@ -13,7 +13,10 @@ cookbook 'ruby-build',
   git: 'git://github.com/arkency/ruby-build-cookbook.git'
 
 cookbook 'ruby',
-  path: '../marozi-cookbooks'
+  git: 'git://github.com/leifg/marozi-cookbooks'
+
+cookbook 'bootstrap',
+  git: 'git://github.com/leifg/cookbooks'
 
 
 # cookbook 'apache2', '>= 1.0.0'

@@ -27,13 +27,25 @@ GIT
   specs:
     ruby-build (0.2.0)
 
-PATH
-  remote: ../marozi-cookbooks
+GIT
+  remote: git://github.com/leifg/cookbooks
+  ref: master
+  sha: 3dbea3e9d647831c732d0f390e324614fe82a0f0
+  specs:
+    bootstrap (0.0.1)
+      git (>= 0.0.0)
+      zsh (>= 0.0.0)
+
+GIT
+  remote: git://github.com/leifg/marozi-cookbooks
+  ref: master
+  sha: 82dc52f01e2fe5f1c1d8eb450ddf45616482f7ea
   specs:
     ruby (0.0.1)
       ruby-build (>= 0.0.0)
 
 DEPENDENCIES
+  bootstrap (>= 0)
   build-essential (>= 0)
   chef-client (>= 0)
   git (>= 0)

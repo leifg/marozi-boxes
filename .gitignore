@@ -1,5 +1,8 @@
 chef/cookbooks
 .vagrant
 .librarian
+private/*
 tmp
 keys
+
+!private/.keep
