@@ -1,0 +1,5 @@
+chef/cookbooks
+.vagrant
+.librarian
+tmp
+keys
