@@ -2,7 +2,9 @@ chef/cookbooks
 .vagrant
 .librarian
 private/*
+projects/*
 tmp
 keys
 
 !private/.keep
+!projects/.keep

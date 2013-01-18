@@ -6,8 +6,6 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'chef-client'
 cookbook 'mongodb'
 cookbook 'build-essential'
-cookbook 'git'
-cookbook 'zsh'
 
 cookbook 'ruby-build',
   git: 'git://github.com/arkency/ruby-build-cookbook.git'
