@@ -31,9 +31,9 @@ GIT
 GIT
   remote: git://github.com/leifg/cookbooks
   ref: master
-  sha: 67c70d0b162876077d716f3a858c6372d74793de
+  sha: 0d3d0b5612332211071ce6efd668487df259a97e
   specs:
-    bootstrap (0.1.1)
+    bootstrap (0.1.2)
       git (>= 0.0.0)
       vim (>= 0.0.0)
       zsh (>= 0.0.0)
