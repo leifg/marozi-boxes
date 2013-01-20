@@ -8,6 +8,10 @@ override_attributes({
     :user => 'vagrant',
     :group => 'vagrant',
     :dotfiles => {
-      :ref => 'marozi' }
+      :ref => 'marozi',
+      :private => {
+         :email => 'YOUR_EMAIL'
+        }
+      }
     }
   })

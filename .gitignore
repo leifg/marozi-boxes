@@ -1,4 +1,5 @@
 chef/cookbooks
+chef/roles/base.rb
 .vagrant
 .librarian
 private/*
